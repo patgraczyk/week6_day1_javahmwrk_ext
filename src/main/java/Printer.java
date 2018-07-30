@@ -20,7 +20,7 @@ public class Printer {
         int printed =(copies * pages);
         if (this.numSheets - printed >= 0) {
             this.numSheets -= printed;
-            this.toner -= printed;
+            this.toner -= 1;
         } else {
             System.out.println("Add more paper");
         }
