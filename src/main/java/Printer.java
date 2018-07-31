@@ -21,8 +21,8 @@ public class Printer {
         if (this.numSheets - printed >= 0) {
             this.numSheets -= printed;
             this.toner -= printed;
-            System.out.println(numSheets);
-            System.out.println(toner);
+            System.out.println("Paper left in the printer: " + numSheets);
+            System.out.println("The toner might be low, current level: "+ toner);
         } else {
             System.out.println("Add more paper");
         }
