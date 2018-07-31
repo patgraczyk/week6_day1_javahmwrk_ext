@@ -22,6 +22,7 @@ public class Printer {
             this.numSheets -= printed;
             this.toner -= printed;
             System.out.println(numSheets);
+            System.out.println(toner);
         } else {
             System.out.println("Add more paper");
         }
